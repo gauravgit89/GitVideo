@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/GitVideo/static/css/main.5f361e03.chunk.css",
+    "main.js": "/GitVideo/static/js/main.d50d0b5f.chunk.js",
+    "main.js.map": "/GitVideo/static/js/main.d50d0b5f.chunk.js.map",
+    "runtime-main.js": "/GitVideo/static/js/runtime-main.dcd3e505.js",
+    "runtime-main.js.map": "/GitVideo/static/js/runtime-main.dcd3e505.js.map",
+    "static/js/2.87deb77b.chunk.js": "/GitVideo/static/js/2.87deb77b.chunk.js",
+    "static/js/2.87deb77b.chunk.js.map": "/GitVideo/static/js/2.87deb77b.chunk.js.map",
+    "index.html": "/GitVideo/index.html",
+    "precache-manifest.43c19b55cbb67bdb76847c3c8ed9c2da.js": "/GitVideo/precache-manifest.43c19b55cbb67bdb76847c3c8ed9c2da.js",
+    "service-worker.js": "/GitVideo/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/GitVideo/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.87deb77b.chunk.js.LICENSE.txt": "/GitVideo/static/js/2.87deb77b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/GitVideo/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcd3e505.js",
+    "static/js/2.87deb77b.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.d50d0b5f.chunk.js"
+  ]
+}
