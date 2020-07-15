@@ -18,6 +18,7 @@ class App extends Component{
   componentDidMount(){
 
     const expressUrl =   "http://localhost:"+ this.port;
+    // console.log(expressUrl);
 
     // this.socket = io("http://localhost:8080");
     this.socket = io(expressUrl);

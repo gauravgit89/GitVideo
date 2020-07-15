@@ -52,6 +52,6 @@ io.on("connection", function(socket){
     })
 })
 
-http.listen(port, () => console.log("example app"));
+http.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
