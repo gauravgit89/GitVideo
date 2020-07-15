@@ -3,7 +3,9 @@ const app = express();
 const http = require("http").Server(app);
 const io = require("socket.io")(http);
 const port = process.env.PORT || 8080;
+const cors = require("cors");
 
+app.use(cors);
 app.get('/',(req,res) => res.send("Hello"));
 
 app.use(express.static(__dirname + "/build"));
