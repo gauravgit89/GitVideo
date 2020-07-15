@@ -12,12 +12,15 @@ class App extends Component{
     this.remoteVideoref = React.createRef("");
     this.socket = null;
     this.candidates = [];
+    this.port = process.env.PORT || 8080;
   }
 
   componentDidMount(){
 
+    const expressUrl =   "http://localhost:"+ this.port;
+
     // this.socket = io("http://localhost:8080");
-    this.socket = io("https://gauravgit89.github.io:8080/GitVideo/");
+    this.socket = io(expressUrl);
 
     console.log(this.socket);
 
