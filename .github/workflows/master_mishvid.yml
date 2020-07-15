@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'mishvid'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b665dc4e8ae445d880a701c41d324b01 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_71b792ba22c645a2ac4d8fb3ee5c9feb }}
         package: .
